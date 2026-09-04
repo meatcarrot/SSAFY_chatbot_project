@@ -3,5 +3,20 @@ build/
 out/
 .idea/
 *.iml
+.venv
+
+__pycache__/
+*.py[cod]
+*$py.class
 
 .env
+.env.*
+!.env.example
+
+.vscode/
+
+.pytest_cache/
+
+chroma/
+chroma_db/
+chroma_data/
